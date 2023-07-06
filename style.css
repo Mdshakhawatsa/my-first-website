@@ -2,10 +2,121 @@
     margin: 0%;
     padding: 0%;
 }
-.test{
-    color: aqua;
-    cursor: pointer;
+.logo{
+    color: rgba(255, 255, 255, 0.832);
+    font-size: 30px;
+    padding-left: 10px;
+    
+    
 }
-.test:hover{
-    color: black;
+.menu-bar{
+    background: #000000;
+    padding: 10px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+}
+.menu{
+    display: flex;
+    padding-right: 50px;
+}
+.list{
+  margin-right: 20px;
+  padding-right: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.list:hover{
+    color: deeppink;
+}
+.banner-imge{
+    width: 600px;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(), 
+    linear-gradient(45deg,#829996,#32ccc2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.text{
+ font-size: 50px;
+ font-weight: bold;
+}
+.discription{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #84bcc8;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: coral;
+}
+.abut{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row-reverse;
+padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+
+}
+.info{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 14px 14px 5px rgb(0, 0, 0);
+    background-color: rgb(166, 208, 208);
+    text-align: center;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 60px;
+}
+.box-btn{
+    background-color: #9d9898;
+    padding-top: 15px;
+}
+.icon{
+    width: 70px;
+
+}
+.box-title{
+padding: 10px;
+}
+.box-dis{
+padding: 5px;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+}
+.ser{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
 }
