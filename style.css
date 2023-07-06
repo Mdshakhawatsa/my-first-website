@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.test{
+    color: aqua;
+    cursor: pointer;
+}
+.test:hover{
+    color: black;
+}
